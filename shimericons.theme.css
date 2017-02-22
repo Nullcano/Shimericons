@@ -1,0 +1,56 @@
+//META{"name":"Shimericons","description":"Replace Discord Client's default icons with small and crisp Shimericons.","author":"Shimeri","version":"1.0"}*//{}
+
+/* Shimericons Version 1.0 */
+
+/* Channel Not Muted */
+.chat.private .channel-group-dm ~ .header-toolbar button:nth-child(2) span[style],
+.chat:not(.private) .header-toolbar button:nth-child(1) span[style] { background-image: url(https://shimeri.pw/discord/i/channel-not-muted.png) !important; background-size: 26px 26px !important; }
+/* Channel Muted */
+.chat.private .channel-group-dm ~ .header-toolbar button:nth-child(2) span[style*="PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGZpbG"],
+.chat:not(.private) .header-toolbar button:nth-child(1) span[style*="PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGZpbG"] { background-image: url(https://shimeri.pw/discord/i/channel-muted.png) !important; background-size: 26px 26px !important; }
+/* Call */
+.chat.private .title-wrap .header-toolbar button.private-channel-call-btn span[style] { background-image: url(https://shimeri.pw/discord/i/call.png) !important; background-size: 26px 26px !important; }
+/* Hang Up */
+#voice-connection .btn-disconnect:after { background-image: url(https://shimeri.pw/discord/i/hang-up.png) !important; background-size: 26px 26px !important; }
+/* Pinned Messages */
+.chat.private .channel-group-dm ~ .header-toolbar button:nth-child(3) span[style],
+.chat.private .header-toolbar button:nth-child(2) span[style],
+.chat:not(.private) .header-toolbar button:nth-child(2) span[style] { background-image: url(https://shimeri.pw/discord/i/pin.png) !important; background-size: 26px 26px !important; }
+/* Members Toggle */
+.chat.private .channel-group-dm ~ .header-toolbar button:nth-child(4) span[style],
+.chat:not(.private) .header-toolbar button:nth-child(3) span[style] { background-image: url(https://shimeri.pw/discord/i/member-list.png) !important; background-size: 26px 26px !important; }
+/* Create Group */
+.chat.private .channel-group-dm ~ .header-toolbar button:nth-child(5) span[style],
+.chat.private .header-toolbar button:nth-child(3) span[style] { background-image: url(https://shimeri.pw/discord/i/add-to-dm.png) !important; background-size: 26px 26px !important; }
+/* Search */
+.search-bar-icon .icon.icon-search-bar-eye-glass, .search .search-bar .search-bar-icon .icon.icon-search-bar-eye-glass { background-image: url(https://shimeri.pw/discord/i/search.png) !important; background-size: 26px 26px !important; }
+/* Recent Mentions */
+div[class*="platform-"] .chat .header-toolbar button:nth-last-child(3) span[style],
+div[class*="platform-"] #friends .header-toolbar button:nth-last-child(3) span[style],
+.chat .header-toolbar button:nth-last-child(2) span[style],
+#friends .header-toolbar button:nth-last-child(2) span[style] { background-image: url(https://shimeri.pw/discord/i/mentions.png) !important; background-size: 26px 26px !important; }
+/* Help */
+div[class*="platform-"] .chat .header-toolbar button:nth-last-child(2) span[style],
+div[class*="platform-"] #friends .header-toolbar button:nth-last-child(2) span[style],
+.chat .header-toolbar button:nth-last-child(1) span[style],
+#friends .header-toolbar button:nth-last-child(1) span[style], #voice-connection .btn-info:after { background-image: url(https://shimeri.pw/discord/i/help.png) !important; background-size: 26px 26px !important; }
+/* Minimize */
+.win-buttons.win-buttons-light .win-minimize { background-image: url(https://shimeri.pw/discord/i/minimize.png) !important; background-size: 26px 26px !important; }
+/* Maximize */
+.win-buttons.win-buttons-light .win-maximize { background-image: url(https://shimeri.pw/discord/i/maximize.png) !important; background-size: 26px 26px !important; }
+/* Close */
+.channel .close, .win-buttons.win-buttons-light .win-close, .theme-dark .search .search-bar .search-bar-icon .icon.icon-search-bar-clear { background-image: url(https://shimeri.pw/discord/i/close.png) !important; background-size: 26px 26px !important; }
+/* Microphone */
+.account .btn-mute:after, .private-channel-call .btn-icon-mute:after { background-image: url(https://shimeri.pw/discord/i/mic.png) !important; background-size: 26px 26px !important; }
+/* Microphone Muted */
+.account .btn-mute.disabled:after { background-image: url(https://shimeri.pw/discord/i/mic-muted.png) !important; background-size: 26px 26px !important; }
+/* Microphone Muted Large */
+.private-channel-call .status-muted:after { width: 26px; height: 26px; top: 1px; left: 1px; background-image: url(https://shimeri.pw/discord/i/mic-muted.png) !important; background-size: 26px 26px !important; }
+/* Headphones */
+.account .btn-deafen:after { background-image: url(https://shimeri.pw/discord/i/headphones.png) !important; background-size: 26px 26px !important; }
+/* Headphones Muted */
+.account .btn-deafen.disabled:after { background-image: url(https://shimeri.pw/discord/i/headphones-deafened.png) !important; background-size: 26px 26px !important; }
+/* Headphones Muted Large */
+.private-channel-call .status-deafened:after { width: 26px; height: 26px; top: 1px; left: 1px; background-image: url(https://shimeri.pw/discord/i/headphones-deafened.png) !important; background-size: 26px 26px !important; }
+/* Settings */
+.account .btn-settings:after, .private-channel-call .btn-icon-settings:after { background-image: url(https://shimeri.pw/discord/i/settings.png) !important; background-size: 26px 26px !important; }
